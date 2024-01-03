@@ -16,7 +16,7 @@ You've just discovered the Python SDK released by **Modalica**. We are dedicated
 
 1. **Explore the Docs**: Dive into our comprehensive documentation at [docs.modalica.ai](https://docs.modalica.ai) for detailed guides and tips.
 2. **Visit Our Website**: For the latest updates and news, check out [modalica.ai](https://modalica.ai).
-3. 
+
 ---
 
 ⭐ Star us on GitHub and help spread the word!
