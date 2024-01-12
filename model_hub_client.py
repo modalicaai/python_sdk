@@ -87,7 +87,7 @@ class ModelHubClient:
         if instructions:
             self.chat_history[0]["content"] = instructions
         
-        if not self.chat_history[0]["content"]: 
+        if not self.chat_history[0]["content"] or not instructions: 
             # No instruction is provided at all, remove the first element of the array before sending it.
             chat_history = self.chat_history[1:]
         else: 
