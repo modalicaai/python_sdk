@@ -90,11 +90,8 @@ class ModelHubClient:
         if not self.chat_history[0]["content"] or not instructions: 
             # No instruction is provided at all, remove the first element of the array before sending it.
             chat_history = self.chat_history[1:]
-            print("removed the instructions:")
-            print(chat_history)
         else: 
             chat_history = self.chat_history
-            print(chat_history)
         end_point = f"{self.base_url}/generate_chat"
         prompt_and_config = {
             "prompt": prompt,
